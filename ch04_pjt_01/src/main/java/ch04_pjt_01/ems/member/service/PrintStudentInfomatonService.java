@@ -32,6 +32,7 @@ public class PrintStudentInfomatonService {
 	   		System.out.println("|sGender:"+student.getsGender()+"\t");
 	   		System.out.println("|sMajor:"+student.getsMajor()+"\t");
 	   	}
+	   	System.out.println("END -------------------------------");
    }
    
 
