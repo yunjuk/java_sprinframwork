@@ -9,6 +9,9 @@ public class MainClass {
 		// TODO Auto-generated method stub
 
 		
+		
+		
+		
 		//멤버 다오 객체 생성 
 		MemberDAO memberDao = new MemberDAO();
 		
@@ -64,10 +67,6 @@ public class MainClass {
 
 	}
 
-	private static void select(String string) {
-		// TODO Auto-generated method stub
-		
 	}
-}
 
 
