@@ -7,13 +7,13 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 
-public class ApiExplorer {
+public class Test {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
 
-		StringBuilder urlBuilder = new StringBuilder("http://apis.data.go.kr/1741000/TsunamiShelter3/getTsunamiShelter1List");
-		urlBuilder.append("?" + URLEncoder.encode("serviceKey= G8md4vK%2F2ZW8EgolMGtyxOyoc88y0wHxr9RqqGhIaVaYqDqQfYuNloprTlPrSTZIdwH8DsJKfEFf0YuNTrzYdg%3D%3D","UTF-8"));
+		StringBuilder urlBuilder = new StringBuilder("http://apis.data.go.kr/1741000/TsunamiShelter3");
+		urlBuilder.append("?" + URLEncoder.encode("serviceKey= 서비스키","UTF-8"));
 		urlBuilder.append("&"+URLEncoder.encode("pageNo = 1","UTF-8"));
 		urlBuilder.append("&"+URLEncoder.encode("numOfRows=10","UTF-8"));
 		urlBuilder.append("&"+URLEncoder.encode("type=json","UTF-8"));
@@ -47,5 +47,5 @@ public class ApiExplorer {
 		
 		
 	}
-
+	
 }
